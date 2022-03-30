@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+// import components
 import { Button } from 'val-design';
+// import styles
 import 'val-design/dist/index.css';
 
 function App() {
