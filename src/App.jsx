@@ -15,19 +15,19 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Welcome to val-design</p>
         <p>
-          <Button btnType="primary" size="large">
+          <Button type="primary" size="large">
             Button
           </Button>
-          <Button style={{ marginLeft: '10px' }} btnType="danger" size="large">
+          <Button style={{ marginLeft: '10px' }} type="danger" size="large">
             Button
           </Button>
-          <Button style={{ marginLeft: '10px' }} btnType="default" size="large">
+          <Button style={{ marginLeft: '10px' }} type="default" size="large">
             Button
           </Button>
-          <Button style={{ marginLeft: '10px' }} btnType="primary" size="sm">
+          <Button style={{ marginLeft: '10px' }} type="primary" size="sm">
             Button
           </Button>
-          <Button style={{ marginLeft: '10px' }} btnType="danger" size="sm">
+          <Button style={{ marginLeft: '10px' }} type="danger" size="sm">
             Button
           </Button>
         </p>
