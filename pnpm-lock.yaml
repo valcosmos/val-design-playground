@@ -1,32 +1,38 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@fortawesome/fontawesome-svg-core': ^6.1.1
+  '@fortawesome/free-solid-svg-icons': ^6.1.1
   '@types/node': ^17.0.23
   '@types/react': ^18.0.0
   '@types/react-dom': ^18.0.0
   '@vitejs/plugin-react': ^1.3.0
+  axios: ^0.26.1
   react: ^17.0.2
   react-dom: ^17.0.2
   react-router-dom: ^6.3.0
   sass: ^1.50.0
   typescript: ^4.6.3
-  val-design: ^0.0.8
+  val-design: ^0.0.11
   vite: ^2.9.2
 
 dependencies:
+  '@fortawesome/fontawesome-svg-core': 6.1.1
+  '@fortawesome/free-solid-svg-icons': 6.1.1
+  axios: 0.26.1
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   react-router-dom: 6.3.0_react-dom@17.0.2+react@17.0.2
-  val-design: 0.0.8
+  val-design: 0.0.11
 
 devDependencies:
-  '@types/node': 17.0.23
-  '@types/react': 18.0.3
+  '@types/node': 17.0.24
+  '@types/react': 18.0.5
   '@types/react-dom': 18.0.0
   '@vitejs/plugin-react': 1.3.1
   sass: 1.50.0
   typescript: 4.6.3
-  vite: 2.9.2_sass@1.50.0
+  vite: 2.9.4_sass@1.50.0
 
 packages:
 
@@ -351,8 +357,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.11
     dev: true
 
-  /@rollup/pluginutils/4.2.0:
-    resolution: {integrity: sha512-2WUyJNRkyH5p487pGnn4tWAsxhEFKN/pT8CMgHshd5H+IXkOnKvKZwsz5ZWz+YCXkleZRAU5kwbfgF8CPfDRqA==}
+  /@rollup/pluginutils/4.2.1:
+    resolution: {integrity: sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==}
     engines: {node: '>= 8.0.0'}
     dependencies:
       estree-walker: 2.0.2
@@ -422,8 +428,8 @@ packages:
       pretty-format: 27.5.1
     dev: false
 
-  /@types/node/17.0.23:
-    resolution: {integrity: sha512-UxDxWn7dl97rKVeVS61vErvw086aCYhDLyvRQZ5Rk65rZKepaFdm53GeqXaKBuOhED4e9uWq34IC3TdSdJJ2Gw==}
+  /@types/node/17.0.24:
+    resolution: {integrity: sha512-aveCYRQbgTH9Pssp1voEP7HiuWlD2jW2BO56w+bVrJn04i61yh6mRfoKO6hEYQD9vF+W8Chkwc6j1M36uPkx4g==}
     dev: true
 
   /@types/prop-types/15.7.5:
@@ -438,7 +444,7 @@ packages:
   /@types/react-dom/18.0.0:
     resolution: {integrity: sha512-49897Y0UiCGmxZqpC8Blrf6meL8QUla6eb+BBhn69dTXlmuOlzkfr7HHY/O8J25e1lTUMs+YYxSlVDAaGHCOLg==}
     dependencies:
-      '@types/react': 18.0.3
+      '@types/react': 18.0.5
     dev: true
 
   /@types/react/17.0.44:
@@ -449,8 +455,8 @@ packages:
       csstype: 3.0.11
     dev: false
 
-  /@types/react/18.0.3:
-    resolution: {integrity: sha512-P8QUaMW4k+kH9aKNPl9b3XWcKMSSALYprLL8xpAMJOLUn3Pl6B+6nKC4F7dsk9oJPwkiRx+qlwhG/Zc1LxFVuQ==}
+  /@types/react/18.0.5:
+    resolution: {integrity: sha512-UPxNGInDCIKlfqBrm8LDXYWNfLHwIdisWcsH5GpMyGjhEDLFgTtlRBaoWuCua9HcyuE0rMkmAeZ3FXV1pYLIYQ==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
@@ -475,7 +481,7 @@ packages:
       '@babel/plugin-transform-react-jsx-development': 7.16.7_@babel+core@7.17.9
       '@babel/plugin-transform-react-jsx-self': 7.16.7_@babel+core@7.17.9
       '@babel/plugin-transform-react-jsx-source': 7.16.7_@babel+core@7.17.9
-      '@rollup/pluginutils': 4.2.0
+      '@rollup/pluginutils': 4.2.1
       react-refresh: 0.12.0
       resolve: 1.22.0
     transitivePeerDependencies:
@@ -549,15 +555,15 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001331
+      caniuse-lite: 1.0.30001332
       electron-to-chromium: 1.4.107
       escalade: 3.1.1
       node-releases: 2.0.3
       picocolors: 1.0.0
     dev: true
 
-  /caniuse-lite/1.0.30001331:
-    resolution: {integrity: sha512-Y1xk6paHpUXKP/P6YjQv1xqyTbgAP05ycHBcRdQjTcyXlWol868sJJPlmk5ylOekw2BrucWes5jk+LvVd7WZ5Q==}
+  /caniuse-lite/1.0.30001332:
+    resolution: {integrity: sha512-10T30NYOEQtN6C11YGg411yebhvpnC6Z102+B95eAsN0oB6KUs01ivE8u+G6FMIRtIrVlYXhL+LUwQ3/hXwDWw==}
     dev: true
 
   /chalk/2.4.2:
@@ -1331,8 +1337,8 @@ packages:
     hasBin: true
     dev: true
 
-  /val-design/0.0.8:
-    resolution: {integrity: sha512-26JQnut7f9FZNg89uc7PSMtoeDDt7xsN2DMVDcOI88zmHzC4E/Fi80meQPtRDcXFxdodxWX0nCSq7Mc6l/Drfw==}
+  /val-design/0.0.11:
+    resolution: {integrity: sha512-HIht3s50xa/W9DeP8kn9KMmyDyd48I8yKG+C5HYBLw2NLqx2QI+hViE7Kr42HzTE/jfD8FMzzy3nu3u7wEPiKQ==}
     dependencies:
       '@fortawesome/fontawesome-svg-core': 6.1.1
       '@fortawesome/free-regular-svg-icons': 6.1.1
@@ -1352,8 +1358,8 @@ packages:
       - debug
     dev: false
 
-  /vite/2.9.2_sass@1.50.0:
-    resolution: {integrity: sha512-ScbfYsiG1N/xE2TnZWYWJ8aOFBQovEl4VLU+0dktxqXvqdAvcTOEUM5YqwaBkmNHSHUGHLPd92tuXFQ35wDkVw==}
+  /vite/2.9.4_sass@1.50.0:
+    resolution: {integrity: sha512-7pO6ruZMsyTpaPB7kGtW+yj15Ze5g+E4w4Ramk1sAJLIuI4uPd5sauqubmZNpq0Yc1vLVxoXRf2Uj+qWxk5aXw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
