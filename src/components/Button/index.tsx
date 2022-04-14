@@ -10,16 +10,16 @@ const CustomButton = () => {
         <Button type="primary" size="lg">
           Button
         </Button>
-        <Button style={{ marginLeft: '10px' }} type="danger" size="lg">
+        <Button className="ms-2" type="danger" size="lg">
           Button
         </Button>
-        <Button style={{ marginLeft: '10px' }} type="default" size="lg">
+        <Button className="ms-2" type="default" size="lg">
           Button
         </Button>
-        <Button style={{ marginLeft: '10px' }} type="primary" size="sm">
+        <Button className="ms-2" type="primary" size="sm">
           Button
         </Button>
-        <Button style={{ marginLeft: '10px' }} type="danger" size="sm">
+        <Button className="ms-2" type="danger" size="sm">
           Button
         </Button>
       </div>
