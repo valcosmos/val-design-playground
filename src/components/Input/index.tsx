@@ -6,7 +6,7 @@ const CustomInput = () => {
   return (
     <>
       <h3>Input Component</h3>
-      <div className="content" style={{ flexDirection: 'column' }}>
+      <div className="content">
         <Input placeholder="large" size="lg" />
         <Input placeholder="small" size="sm" />
         <Input placeholder="disabled" disabled />
@@ -14,7 +14,7 @@ const CustomInput = () => {
         <Input placeholder="prepend" prepend={'https://'}></Input>
         <Input placeholder="append" append={'.com'}></Input>
         <hr />
-        <p>{data}</p>
+        <p style={{ width: '100%' }}>{data}</p>
         <Input
           value={data}
           onChange={(e: ChangeEvent<HTMLInputElement>) => {
