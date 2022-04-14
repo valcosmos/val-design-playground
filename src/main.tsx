@@ -16,21 +16,21 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 library.add(fas)
 
-// import Button from './components/Button'
-// import Alert from './components/Alert'
-// import AutoComplete from './components/AutoComplete'
-// import Icon from '@/components/Icon'
-// import Input from '@/components/Input'
-// import Tabs from '@/components/Tabs'
-// import Upload from '@/components/Upload'
+import Button from './components/Button'
+import Alert from './components/Alert'
+import AutoComplete from './components/AutoComplete'
+import Icon from '@/components/Icon'
+import Input from '@/components/Input'
+import Tabs from '@/components/Tabs'
+import Upload from '@/components/Upload'
 
-const Button = lazy(() => import('@/components/Button'))
-const Alert = lazy(() => import('@/components/Alert'))
-const AutoComplete = lazy(() => import('@/components/AutoComplete'))
-const Icon = lazy(() => import('@/components/Icon'))
-const Input = lazy(() => import('@/components/Input'))
-const Tabs = lazy(() => import('@/components/Tabs'))
-const Upload = lazy(() => import('@/components/Upload'))
+// const Button = lazy(() => import('@/components/Button'))
+// const Alert = lazy(() => import('@/components/Alert'))
+// const AutoComplete = lazy(() => import('@/components/AutoComplete'))
+// const Icon = lazy(() => import('@/components/Icon'))
+// const Input = lazy(() => import('@/components/Input'))
+// const Tabs = lazy(() => import('@/components/Tabs'))
+// const Upload = lazy(() => import('@/components/Upload'))
 
 console.log(Button)
 
@@ -49,7 +49,7 @@ ReactDOM.render(
   //   <App />
   // </React.StrictMode>,
   <Router>
-    <Suspense fallback={<div>loading...</div>}>
+    {/* <Suspense fallback={<div></div>}> */}
       <Routes>
         <Route path="/" element={<App />}>
           <Route path="" element={<Navigate to={'/button'} />}></Route>
@@ -58,7 +58,7 @@ ReactDOM.render(
           ))}
         </Route>
       </Routes>
-    </Suspense>
+    {/* </Suspense> */}
   </Router>,
   document.getElementById('root')
 )
