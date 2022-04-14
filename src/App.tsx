@@ -43,14 +43,24 @@ function App() {
       <header className="App-header">
         <img src={'https://api.valzt.cn/media/avatar_me.png'} alt="logo" />
         <h1 style={{ marginTop: '10px' }}>Welcome to val-design</h1>
-
+        <div>--{Button.name.split('Custom').pop()?.toString()}</div>
         <Menu defaultIndex={index} onSelect={handleMenuSelect}>
           {menu.map((m, i) => (
             <Menu.Item key={i}>{m}</Menu.Item>
           ))}
         </Menu>
       </header>
-      <Outlet />
+      <main
+        style={{
+          width: '100%',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center'
+        }}
+      >
+        <Outlet />
+      </main>
     </div>
   )
 }

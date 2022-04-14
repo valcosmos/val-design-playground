@@ -1,12 +1,22 @@
 .App {
-  text-align: center;
   padding: 10px;
+  .App-header,
+  img,
+  h1,
+  h3 {
+    text-align: center;
+  }
 }
 
 .App-header {
   img {
     width: 100px;
   }
+}
+.content {
+  display: flex;
+  justify-content: center;
+  width: 800px;
 }
 
 .App-link {
