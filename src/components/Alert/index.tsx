@@ -5,7 +5,7 @@ const CustomAlert = () => {
   return (
     <>
       <h3>Alert Component</h3>
-      <div className="content" style={{ flexDirection: 'column' }}>
+      <div className="content col">
         <Alert
           title={'Default alert'}
           closable={false}
