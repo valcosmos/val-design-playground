@@ -1,0 +1,10 @@
+.icons {
+  // width: 100%;
+  flex-wrap: wrap;
+  :global {
+    div {
+      padding: 20px;
+      font-size: 30px;
+    }
+  }
+}
