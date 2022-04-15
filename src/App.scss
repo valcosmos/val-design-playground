@@ -47,6 +47,12 @@
       margin-bottom: 30px;
     }
 
+    .v-auto-complete {
+      .v-input-wrapper {
+        margin-bottom: 0;
+      }
+    }
+
     &.col {
       flex-direction: column;
       align-items: flex-start;

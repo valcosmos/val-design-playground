@@ -36,9 +36,9 @@ const CustomIcon = () => {
           href="https://fontawesome.com/v6/icons?m=free&s=solid"
           target={'_blank'}
         >
-          ==> https://fontawesome.com/v6/icons?m=free&s=solid
+          {'==> ' + 'https://fontawesome.com/v6/icons?m=free&s=solid'}
         </a>
-        <p className='mt-2'>
+        <p className="mt-2">
           The icons of this component library are based on the{' '}
           <strong>fontawesome</strong> icon library The secondary package of ,
           the supported icons can be obtained according to the above link

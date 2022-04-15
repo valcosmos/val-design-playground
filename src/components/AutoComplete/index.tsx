@@ -44,7 +44,7 @@ const CustomAutoComplete: FC = () => {
           setUrl(e.target.value)
         }}
       ></Input>
-      <div className="content col">
+      <div className="content col mt-2">
         <h4>Default:</h4>
         <AutoComplete
           fetchSuggestions={handleFetch}
