@@ -10,9 +10,10 @@ export default defineConfig({
       '@': resolve(__dirname, 'src')
     }
   },
-  base: './', // 添加这个属性，
+
   build: {
     chunkSizeWarningLimit: 1400,
+
     rollupOptions: {
       output: {
         chunkFileNames: 'assets/js/[name]-[hash].js',

@@ -32,8 +32,6 @@ import Upload from '@/components/Upload'
 // const Tabs = lazy(() => import('@/components/Tabs'))
 // const Upload = lazy(() => import('@/components/Upload'))
 
-
-
 const routesArr = [
   { k: 'button', v: Button },
   { k: 'alert', v: Alert },
@@ -48,16 +46,16 @@ ReactDOM.render(
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>,
-  <Router>
+  <Router basename="/">
     {/* <Suspense fallback={<div></div>}> */}
-      <Routes>
-        <Route path="/" element={<App />}>
-          <Route path="" element={<Navigate to={'/button'} />}></Route>
-          {routesArr.map((r) => (
-            <Route path={r.k} element={<r.v />} key={r.k} />
-          ))}
-        </Route>
-      </Routes>
+    <Routes>
+      <Route path="/" element={<App />}>
+        <Route path="" element={<Navigate to={'/button'} />}></Route>
+        {routesArr.map((r) => (
+          <Route path={r.k} element={<r.v />} key={r.k} />
+        ))}
+      </Route>
+    </Routes>
     {/* </Suspense> */}
   </Router>,
   document.getElementById('root')
