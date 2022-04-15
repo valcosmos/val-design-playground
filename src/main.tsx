@@ -46,7 +46,7 @@ ReactDOM.render(
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>,
-  <Router basename="/val-design-playground/">
+  <Router basename="/">
     {/* <Suspense fallback={<div></div>}> */}
     <Routes>
       <Route path="/" element={<App />}>
