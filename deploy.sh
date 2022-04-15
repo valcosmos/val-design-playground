@@ -37,7 +37,7 @@ git add .
 
 git commit -m "deploy val-design-pg"
 
-git push origin gh-pages
+git push origin gh-pages -f
 
 cd ..
 
