@@ -3,7 +3,7 @@ import './App.scss'
 // import styles
 import 'val-design/dist/index.css'
 
-import { Outlet, useNavigate } from 'react-router-dom'
+import { Outlet, useLocation, useNavigate } from 'react-router-dom'
 
 import { Menu } from 'val-design'
 
@@ -11,6 +11,7 @@ function App() {
   const [index, setIndex] = useState<string>('0')
 
   const nav = useNavigate()
+  const location = useLocation()
 
   const menu: string[] = [
     'Button',
@@ -21,6 +22,7 @@ function App() {
     'Tabs',
     'Upload'
   ]
+  console.log(location)
   const handleMenuSelect = (index: string) => {
     console.log(index)
     nav(`/${menu[+index].toLocaleLowerCase()}`)
@@ -41,6 +43,7 @@ function App() {
           </Menu>
         </div>
       </header>
+
       <main className="main">
         <Outlet />
       </main>

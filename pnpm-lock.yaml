@@ -6,14 +6,16 @@ specifiers:
   '@types/node': ^17.0.23
   '@types/react': ^18.0.0
   '@types/react-dom': ^18.0.0
+  '@types/react-transition-group': ^4.4.4
   '@vitejs/plugin-react': ^1.3.0
   axios: ^0.26.1
   react: ^17.0.2
   react-dom: ^17.0.2
   react-router-dom: ^6.3.0
+  react-transition-group: ^4.4.2
   sass: ^1.50.0
   typescript: ^4.6.3
-  val-design: ^0.0.14
+  val-design: ^0.0.15
   vite: ^2.9.2
 
 dependencies:
@@ -23,16 +25,18 @@ dependencies:
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   react-router-dom: 6.3.0_react-dom@17.0.2+react@17.0.2
-  val-design: 0.0.14
+  react-transition-group: 4.4.2_react-dom@17.0.2+react@17.0.2
+  val-design: 0.0.15
 
 devDependencies:
   '@types/node': 17.0.24
   '@types/react': 18.0.5
-  '@types/react-dom': 18.0.0
+  '@types/react-dom': 18.0.1
+  '@types/react-transition-group': 4.4.4
   '@vitejs/plugin-react': 1.3.1
   sass: 1.50.0
   typescript: 4.6.3
-  vite: 2.9.4_sass@1.50.0
+  vite: 2.9.5_sass@1.50.0
 
 packages:
 
@@ -441,8 +445,14 @@ packages:
       '@types/react': 17.0.44
     dev: false
 
-  /@types/react-dom/18.0.0:
-    resolution: {integrity: sha512-49897Y0UiCGmxZqpC8Blrf6meL8QUla6eb+BBhn69dTXlmuOlzkfr7HHY/O8J25e1lTUMs+YYxSlVDAaGHCOLg==}
+  /@types/react-dom/18.0.1:
+    resolution: {integrity: sha512-jCwTXvHtRLiyVvKm9aEdHXs8rflVOGd5Sl913JZrPshfXjn8NYsTNZOz70bCsA31IR0TOqwi3ad+X4tSCBoMTw==}
+    dependencies:
+      '@types/react': 18.0.5
+    dev: true
+
+  /@types/react-transition-group/4.4.4:
+    resolution: {integrity: sha512-7gAPz7anVK5xzbeQW9wFBDg7G++aPLAFY0QaSMOou9rJZpbuI58WAuJrgu+qR92l61grlnCUe7AFX8KGahAgug==}
     dependencies:
       '@types/react': 18.0.5
     dev: true
@@ -556,7 +566,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001332
-      electron-to-chromium: 1.4.107
+      electron-to-chromium: 1.4.108
       escalade: 3.1.1
       node-releases: 2.0.3
       picocolors: 1.0.0
@@ -682,8 +692,8 @@ packages:
       csstype: 3.0.11
     dev: false
 
-  /electron-to-chromium/1.4.107:
-    resolution: {integrity: sha512-Huen6taaVrUrSy8o7mGStByba8PfOWWluHNxSHGBrCgEdFVLtvdQDBr9LBCF9Uci8SYxh28QNNMO0oC17wbGAg==}
+  /electron-to-chromium/1.4.108:
+    resolution: {integrity: sha512-/36KkMuL6+WTrodVlOjtHhH9Ro7BgRaQrh0bfKckwDtdRSjTBuZCOddeXxzK1PkwphoeTxGUFVT9xnmvQ7xEdw==}
     dev: true
 
   /esbuild-android-64/0.14.36:
@@ -1237,8 +1247,8 @@ packages:
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
 
-  /rollup/2.70.1:
-    resolution: {integrity: sha512-CRYsI5EuzLbXdxC6RnYhOuRdtz4bhejPMSWjsFLfVM/7w/85n2szZv6yExqUXsBdz5KT8eoubeyDUDjhLHEslA==}
+  /rollup/2.70.2:
+    resolution: {integrity: sha512-EitogNZnfku65I1DD5Mxe8JYRUCy0hkK5X84IlDtUs+O6JRMpRciXTzyCUuX11b5L5pvjH+OmFXiQ3XjabcXgg==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
@@ -1337,8 +1347,8 @@ packages:
     hasBin: true
     dev: true
 
-  /val-design/0.0.14:
-    resolution: {integrity: sha512-3zrQ49FSU5hdDwRDwtRQnj8TletWXtTOlulq5JNy37iIwRaXlXLSyZHyXZLjUBaQrpnUhQeD9Cr1tD0K5Nv7Mg==}
+  /val-design/0.0.15:
+    resolution: {integrity: sha512-FJCcywHRQ1s+qZ9wi4NgYqY3nUx/mEY5f99rRQu7t9VpJCPcK12vF801YVLna1ODxkAvR7WxpKjbBbVWtFb2HQ==}
     dependencies:
       '@fortawesome/fontawesome-svg-core': 6.1.1
       '@fortawesome/free-regular-svg-icons': 6.1.1
@@ -1358,8 +1368,8 @@ packages:
       - debug
     dev: false
 
-  /vite/2.9.4_sass@1.50.0:
-    resolution: {integrity: sha512-7pO6ruZMsyTpaPB7kGtW+yj15Ze5g+E4w4Ramk1sAJLIuI4uPd5sauqubmZNpq0Yc1vLVxoXRf2Uj+qWxk5aXw==}
+  /vite/2.9.5_sass@1.50.0:
+    resolution: {integrity: sha512-dvMN64X2YEQgSXF1lYabKXw3BbN6e+BL67+P3Vy4MacnY+UzT1AfkHiioFSi9+uiDUiaDy7Ax/LQqivk6orilg==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
@@ -1377,7 +1387,7 @@ packages:
       esbuild: 0.14.36
       postcss: 8.4.12
       resolve: 1.22.0
-      rollup: 2.70.1
+      rollup: 2.70.2
       sass: 1.50.0
     optionalDependencies:
       fsevents: 2.3.2
