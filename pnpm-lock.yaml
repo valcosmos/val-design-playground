@@ -15,7 +15,7 @@ specifiers:
   react-transition-group: ^4.4.2
   sass: ^1.50.0
   typescript: ^4.6.3
-  val-design: ^0.0.15
+  val-design: ^0.0.18
   vite: ^2.9.2
 
 dependencies:
@@ -26,7 +26,7 @@ dependencies:
   react-dom: 17.0.2_react@17.0.2
   react-router-dom: 6.3.0_react-dom@17.0.2+react@17.0.2
   react-transition-group: 4.4.2_react-dom@17.0.2+react@17.0.2
-  val-design: 0.0.15
+  val-design: 0.0.18
 
 devDependencies:
   '@types/node': 17.0.24
@@ -1347,8 +1347,8 @@ packages:
     hasBin: true
     dev: true
 
-  /val-design/0.0.15:
-    resolution: {integrity: sha512-FJCcywHRQ1s+qZ9wi4NgYqY3nUx/mEY5f99rRQu7t9VpJCPcK12vF801YVLna1ODxkAvR7WxpKjbBbVWtFb2HQ==}
+  /val-design/0.0.18:
+    resolution: {integrity: sha512-UfmTvQ476xLyAsVcqEiFKj5BSC/hEzI8klT4Zl95H4B0r1BsHt+1rctQUN+Vk+nV3kquDVcrMbCE2E90Gxz3XA==}
     dependencies:
       '@fortawesome/fontawesome-svg-core': 6.1.1
       '@fortawesome/free-regular-svg-icons': 6.1.1
