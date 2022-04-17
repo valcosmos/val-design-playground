@@ -1,0 +1,14 @@
+@for $i from 1 through 5 {
+  .ms-#{$i} {
+    margin-left: $i * 10px;
+  }
+  .me-#{$i} {
+    margin-right: $i * 10px;
+  }
+  .mt-#{$i} {
+    margin-top: $i * 10px;
+  }
+  .mb-#{$i} {
+    margin-bottom: $i * 10px;
+  }
+}
