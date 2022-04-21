@@ -15,7 +15,7 @@ specifiers:
   react-transition-group: ^4.4.2
   sass: ^1.50.0
   typescript: ^4.6.3
-  val-design: ^0.0.18
+  val-design: ^0.0.21
   vite: ^2.9.2
 
 dependencies:
@@ -26,7 +26,7 @@ dependencies:
   react-dom: 17.0.2_react@17.0.2
   react-router-dom: 6.3.0_react-dom@17.0.2+react@17.0.2
   react-transition-group: 4.4.2_react-dom@17.0.2+react@17.0.2
-  val-design: 0.0.18
+  val-design: 0.0.21
 
 devDependencies:
   '@types/node': 17.0.24
@@ -645,7 +645,7 @@ packages:
     dev: true
 
   /css.escape/1.5.1:
-    resolution: {integrity: sha512-YUifsXXuknHlUsmlgyY0PKzgPOr7/FjCePfHNt0jxm83wHZi44VDMQ7/fGNkjY3/jV1MC+1CmZbaHzugyeRtpg==}
+    resolution: {integrity: sha1-QuJ9T6BK4y+TGktNQZH6nN3ul8s=}
     dev: false
 
   /css/3.0.0:
@@ -672,7 +672,7 @@ packages:
     dev: true
 
   /decode-uri-component/0.2.0:
-    resolution: {integrity: sha512-hjf+xovcEn31w/EUYdTXQh/8smFL/dzYjohQGEIgjyNavaJfBY2p5F527Bo1VPATxv0VYTUC2bOcXvqFwk78Og==}
+    resolution: {integrity: sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=}
     engines: {node: '>=0.10'}
     dev: false
 
@@ -1080,7 +1080,7 @@ packages:
     dev: false
 
   /lz-string/1.4.4:
-    resolution: {integrity: sha512-0ckx7ZHRPqb0oUm8zNr+90mtf9DQB60H1wMCjBtfi62Kl3a7JbHob6gA2bC+xRvZoOL+1hzUK8jeuEIQE8svEQ==}
+    resolution: {integrity: sha1-wNjq82BZ9wV5bh40SBHPTEmNOiY=}
     hasBin: true
     dev: false
 
@@ -1347,8 +1347,8 @@ packages:
     hasBin: true
     dev: true
 
-  /val-design/0.0.18:
-    resolution: {integrity: sha512-UfmTvQ476xLyAsVcqEiFKj5BSC/hEzI8klT4Zl95H4B0r1BsHt+1rctQUN+Vk+nV3kquDVcrMbCE2E90Gxz3XA==}
+  /val-design/0.0.21:
+    resolution: {integrity: sha512-A09tjQTKJIWZEw+QKZw+pyH/bEJv9161kTODZWJpvsvBT1VGCL+WkXPwe0eU5k5A/AefjjXyMj1pOimLBA4CHQ==}
     dependencies:
       '@fortawesome/fontawesome-svg-core': 6.1.1
       '@fortawesome/free-regular-svg-icons': 6.1.1
