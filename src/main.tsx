@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import './index.css'
 
 import '@/styles/common.scss'
+
 import 'val-design/dist/index.css'
 
 import App from './App'
