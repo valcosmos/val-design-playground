@@ -16,6 +16,7 @@ const Layout = () => {
 
   const menu: string[] = [
     'Button',
+    'message',
     'Alert',
     'AutoComplete',
     'Icon',

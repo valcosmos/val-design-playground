@@ -9,11 +9,13 @@ import Icon from '@/components/Icon'
 import Input from '@/components/Input'
 import Tabs from '@/components/Tabs'
 import Upload from '@/components/Upload'
+import Message from '@/components/Message'
 
 import App from '@/App'
 
 const routesArr = [
   { k: 'button', v: Button },
+  { k: 'message', v: Message },
   { k: 'alert', v: Alert },
   { k: 'autocomplete', v: AutoComplete },
   { k: 'icon', v: Icon },
