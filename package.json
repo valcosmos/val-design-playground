@@ -15,7 +15,7 @@
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",
     "react-transition-group": "^4.4.2",
-    "val-design": "^0.0.38"
+    "val-design": "^0.0.39"
   },
   "devDependencies": {
     "@types/node": "^17.0.31",
