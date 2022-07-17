@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react'
-import ReactDOM from 'react-dom'
+import { createRoot } from 'react-dom/client'
 import './index.css'
 
 import '@/styles/common.scss'
@@ -14,12 +14,19 @@ library.add(fas)
 
 import { BrowserRouter as Router } from 'react-router-dom'
 
-ReactDOM.render(
-  // <React.StrictMode>
+const root = createRoot(document.getElementById('root') as HTMLElement)
+
+root.render(
   <Router>
     <App />
-  </Router>,
-  // </React.StrictMode>,
-
-  document.getElementById('root')
+  </Router>
 )
+// ReactDOM.render(
+//   // <React.StrictMode>
+//   <Router>
+//     <App />
+//   </Router>,
+//   // </React.StrictMode>,
+
+//   document.getElementById('root')
+// )
